@@ -4,7 +4,7 @@ function NavBar(props) {
     return (
         <div className= "navbar">
 
-            <span id = "logo" >Find Super hero </span>
+            <span id = "logo" >Find SuperHero </span>
         </div>
     );
 }

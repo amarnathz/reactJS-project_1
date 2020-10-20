@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBar(props) {
     return (
         <div>
-            SearchBar
+            <input id="search-id" type="search" placeholder="Find SuperHeroes here....."></input>
         </div>
     );
 }

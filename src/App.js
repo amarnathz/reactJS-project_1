@@ -8,9 +8,13 @@ function App() {
   return (
     <div className="App">
      <NavBar></NavBar> 
-     <SearchBar></SearchBar>
-     <SearchResults></SearchResults>
-    </div>
+       <div className = "main">
+        <SearchBar></SearchBar>
+        <SearchResults></SearchResults>
+    
+      </div>
+    
+     </div>
   );
 }
 
