@@ -15,6 +15,7 @@ code {
 
 .navbar{
     height: 70px;
+    
     display: flex;
     align-items: center;
     padding: 0 16px;
@@ -34,8 +35,40 @@ code {
 }
 #search-id{
   padding: 6px;
-  width: 100%;
-  font-size: 20px;
+  width: 75%;
+  font-size: 16px;
   padding-left: 6px;
   margin-bottom: 50px;
+}
+
+.search-results{
+  display: flex;
+  width: 75%;
+  padding: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.search-results .left img {
+  height: 100%;
+  width: 100px;
+  
+}
+
+.search-results .right {
+  padding-left:30px ;
+}
+
+.search-results .right h2{
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.status{
+  padding: 4px;
+}
+.status div{
+  font-size: 15px;
+  padding: 1px;
+  margin-left: 5px;
 }
